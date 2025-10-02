@@ -5,14 +5,14 @@
 **Horário**: Quartas e quintas, 10h às 12h  
 **Dias**: 16, 22, 23 e 30/10; 06,12,13,19, e 27/11; e 04/12/2025
 **Professor**: Bernardo Alves Furtado - bernardo.furtado@ipea.gov.br
-
+https://github.com/BAFurtado/python-ipea-fundamentos-objetos/blob/main/configuracao/README.md
 ## 🎯 Público-Alvo
 Servidores públicos com familiaridade em lógica de programação e uso de dados que desejem aprender Python para aplicar em projetos de dados de forma eficaz e seguindo boas práticas.
 
 ## 📚 Módulos do Curso
 
 ### 🔧 Configuração do Ambiente
-- [Instalação do Python, VS Code e ferramentas essenciais](configuracao/README.md)
+- [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/README.md)
 
 
 ### [📊 Módulo 1: Fundamentos](modulo1-fundamentos/README.md)
