@@ -29,9 +29,9 @@ kramdown:
 header_pages:
   - README.md
   - configuracao/README.md
-  - modulo1/README.md
-  - modulo2/README.md
-  - modulo3/README.md
+  - modulo1-fundamentos/README.md
+  - modulo2-objetos/README.md
+  - modulo3-projeto/README.md
 
 # Informações do curso
 author:
@@ -46,7 +46,7 @@ logo: "/images/logo_ENG_black.png"  # Opcional - se tiver
 lang: "pt-BR"
 
 # Personalização (opcional)
-repository: "bafurtado/python-ipea-fundamentos-objetos"  # 👈 SEU REPO
+repository: "bafurtado/python-ipea-fundamentos-objetos" 
 
 # Exclude arquivos desnecessários
 exclude:

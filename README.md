@@ -13,7 +13,7 @@ Servidores públicos com familiaridade em lógica de programação e uso de dado
 
 ### 🔧 Configuração do Ambiente
 
-- [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/README.md)
+- [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 
 ### [📊 Módulo 1: Fundamentos](modulo1-fundamentos/README.md)
 - [Aula 1: Ambiente, Sintaxe e Primeiros Passos](modulo1-fundamentos/aula1-ambiente-sintaxe/README.md)
@@ -26,7 +26,7 @@ Servidores públicos com familiaridade em lógica de programação e uso de dado
 - [Aula 6: Manipulação de Dados com Pandas](modulo2-objetos/aula6-manipulacao-dados/README.md)
 
 ### [🚀 Módulo 3: Intermediário e Projeto](modulo3-projeto/README.md)
-- [Aula 7: Git e Estrutura de Projetos](modulo3-projeto/aula7-git-estrutura-projetos/README.md)
+- [Aula 7: Git e Estrutura de Projetos]({{ site.baseurl }}/modulo3-projeto/aula7-git-estrutura-projeto/)
 - [Aula 8: Machine Learning e Automação](modulo3-projeto/aula8-ml-automacao/README.md)
 - [Aula 9: Projeto Final - Desenvolvimento Guiado](modulo3-projeto/aula9-projeto-final-guiado/README.md)
 - [Aula 10: Apresentação dos Projetos](modulo3-projeto/aula10-apresentacao-projetos/README.md)
