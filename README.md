@@ -4,14 +4,15 @@
 **Modalidade**: Presencial  
 **Horário**: Quartas e quintas, 10h às 12h  
 **Dias**: 16, 22, 23 e 30/10; 06,12,13,19, e 27/11; e 04/12/2025
+
 **Professor**: Bernardo Alves Furtado - bernardo.furtado@ipea.gov.br
 
 ## 🎯 Público-Alvo
-Servidores públicos com familiaridade em lógica de programação e uso de dados que desejem aprender Python para aplicar em projetos de dados de forma eficaz e seguindo boas práticas.
+Servidores públicos com alguma familiaridade em lógica de programação e uso de dados com interesse em aprender **Python** para aplicar em projetos de dados de forma eficaz e seguindo boas práticas.
 
 ## 📚 Módulos do Curso
 
-### 🔧 Configuração do Ambiente
+### 🔧 Aula 0: Configuração do Ambiente
 
 - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 

@@ -12,6 +12,8 @@ __pycache__/
 *.pyc
 *.pyo
 .python-version
+Python-3.12.10/
+Text/
 
 # Dados grandes
 dados/raw/
