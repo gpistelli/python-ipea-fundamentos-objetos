@@ -1,0 +1,20 @@
+# Environments
+venv-curso-ipea/
+env/
+.venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Dados grandes
+dados/raw/
+*.csv
+*.xlsx
+!dados/exemplos/sample_data.csv
