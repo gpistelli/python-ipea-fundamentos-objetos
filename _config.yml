@@ -2,8 +2,8 @@ title: "Python para Análise de Dados: Fundamentos, Boas Práticas e Orientaçã
 description: "Curso de Python para servidores do Ipea"
 theme: jekyll-theme-cayman
 # _config.yml
-baseurl: "/python-analise-dados-ipea"  # 👈 NOME DO SEU REPOSITÓRIO
-url: "https://bafurtado.github.io"    # 👈 SEU USUÁRIO GitHub
+baseurl: "/python-ipea-fundamentos-objetos"  
+url: "https://bafurtado.github.io"  
 
 # Tema
 theme: jekyll-theme-cayman
@@ -29,10 +29,9 @@ kramdown:
 header_pages:
   - README.md
   - configuracao/README.md
-  - modulo1-fundamentos/README.md
-  - modulo2-poo-dados/README.md
-  - modulo3-intermediario-projeto/README.md
-  - referencias/README.md
+  - modulo1/README.md
+  - modulo2/README.md
+  - modulo3/README.md
 
 # Informações do curso
 author:
@@ -43,11 +42,11 @@ author:
   
 
 # SEO
-logo: "/assets/images/logo.png"  # Opcional - se tiver
+logo: "/images/logo_ENG_black.png"  # Opcional - se tiver
 lang: "pt-BR"
 
 # Personalização (opcional)
-repository: "bafurtado/python-analise-dados-ipea"  # 👈 SEU REPO
+repository: "bafurtado/python-ipea-fundamentos-objetos"  # 👈 SEU REPO
 
 # Exclude arquivos desnecessários
 exclude:
