@@ -51,13 +51,25 @@ git config --global user.email "seu.email@ipea.gov.br"
    - Mac/Linux
       - `source venv-curso-ipea/bin/activate`
    - **Troubleshooting**. Use o comando `CTRL + Shift + P` para acessar os atalhos do **VS Code**. Busque pela opção `Python: Select Interpreter` e escolha o **python** disponível que foi instalado.
-   - Solução definitiva: crie uma pasta na raiz do seu projeto `.vscode`e inclua um novo arquivo `settings.json`. Copie o seguinte código: 
+   - **Solução definitiva**: crie uma pasta na raiz do seu projeto `.vscode`e inclua um novo arquivo `settings.json`. Copie o seguinte código: 
    ```json
    {
-    "python.venvPath": "${workspaceFolder}/venv-curso-ipea",
+    "python.defaultInterpreterPath": "${workspaceFolder}\\venv-curso-ipea\\Scripts\\python.exe",
     "python.terminal.activateEnvironment": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv-curso-ipea\\Scripts\\python.exe"
-    } 
+    "python.venvPath": "${workspaceFolder}",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+
+    // Windows terminal padrão
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    // Ocultar pastas/arquivos desnecessários no Explorer
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+       }
+   }
+
     ```
 
 

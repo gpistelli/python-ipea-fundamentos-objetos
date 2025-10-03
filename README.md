@@ -1,7 +1,7 @@
 # Python para Análise de Dados: Fundamentos, Boas Práticas e Orientação a Objetos
 
 **Carga Horária**: 20 horas (10 aulas de 2h cada)  
-**Modalidade**: Presencial  
+**Modalidade**: Presencial e online 
 **Horário**: Quartas e quintas, 10h às 12h  
 **Dias**: 16, 22, 23 e 30/10; 06,12,13,19, e 27/11; e 04/12/2025
 
