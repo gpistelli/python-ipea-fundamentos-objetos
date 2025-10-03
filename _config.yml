@@ -6,7 +6,7 @@ baseurl: "/python-ipea-fundamentos-objetos"
 url: "https://bafurtado.github.io"  
 
 # Tema
-theme: jekyll-theme-cayman
+theme: jekyll-theme-midnight
 
 # Configurações do tema
 show_downloads: false
