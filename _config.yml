@@ -1,0 +1,61 @@
+title: "Python para Análise de Dados: Fundamentos, Boas Práticas e Orientação a Objetos"
+description: "Curso de Python para servidores do Ipea"
+theme: jekyll-theme-cayman
+# _config.yml
+baseurl: "/python-analise-dados-ipea"  # 👈 NOME DO SEU REPOSITÓRIO
+url: "https://bafurtado.github.io"    # 👈 SEU USUÁRIO GitHub
+
+# Tema
+theme: jekyll-theme-cayman
+
+# Configurações do tema
+show_downloads: false
+github:
+  is_project_page: false
+
+# Plugins (seguros para GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configurações de build
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Navegação - Páginas principais
+header_pages:
+  - README.md
+  - configuracao/README.md
+  - modulo1-fundamentos/README.md
+  - modulo2-poo-dados/README.md
+  - modulo3-intermediario-projeto/README.md
+  - referencias/README.md
+
+# Informações do curso
+author:
+  name: "Bernardo Alves Furtado"
+  email: "bernardo.furtado@ipea.gov.br"
+  carga_horaria: "20 horas"
+  modalidade: "Presencial"
+  
+
+# SEO
+logo: "/assets/images/logo.png"  # Opcional - se tiver
+lang: "pt-BR"
+
+# Personalização (opcional)
+repository: "bafurtado/python-analise-dados-ipea"  # 👈 SEU REPO
+
+# Exclude arquivos desnecessários
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
