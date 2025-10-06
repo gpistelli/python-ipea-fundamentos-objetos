@@ -17,9 +17,9 @@ Servidores públicos com alguma familiaridade em lógica de programação e uso 
 - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 
 ### 📊 Módulo 1: Fundamentos
-- [Aula 1: Ambiente, Sintaxe e Primeiros Passos]({{ site.baseurl }}/modulo1-fundamentos/aula1-ambiente-sintaxe/README.md)
-- [Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1-fundamentos/aula2-estruturas-dados/README.md)
-- [Aula 3: Controle de Fluxo e Funções]({{ site.baseurl }}/modulo1-fundamentos/aula3-controle-fluxo/README.md)
+- [Aula 1: Ambiente, Sintaxe e Primeiros Passos]({{ site.baseurl }}/modulo1-fundamentos/aula1-ambiente-sintaxe/)
+- [Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1-fundamentos/aula2-estruturas-dados/)
+- [Aula 3: Controle de Fluxo e Funções]({{ site.baseurl }}/modulo1-fundamentos/aula3-controle-fluxo/)
 
 ### 🐍 Módulo 2: POO e Dados
 - [Aula 4: Programação Orientada a Objetos]({{ site.baseurl }}/modulo2-objetos/aula4-programacao-orientada-objetos/README.md)
