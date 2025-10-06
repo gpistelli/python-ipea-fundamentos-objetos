@@ -11,12 +11,39 @@
     - Fundamentos
     - POO--programação orientada a objetos
     - Boas práticas
+    - Compreensão mínima de: 
+        - funções, 
+        - classes, 
+        - módulos e 
+        - persistência
 
 ---
 
-3. Referência básica:
+3. **Referência básica:**
 - https://penseallen.github.io/PensePython2e/
 
+---
 
-4. [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
+### 4. **Hands-on**
+- **VS Code**
+    -   **Python interativo (console)**
+        - REPL: Read, Evaluate, Print, Loop back for more input
+        - Sair. `quit()`
+    - **Teminal**. Qualquer texto *.py
+        - `python script.py`
+    
+    - Jupyter--New File *.ipynb (*usa servidor--online code*)
+        - Escolha kernel (mesmo ambiente)
+        - Sair: `CTRL + C`
 
+### Exercício: hello.py 
+Produzir output impresso na tela: **hello, world!**
+- Console
+- Terminal
+---
+
+### Extras
+- [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
+- `import this`
+
+- [Links Úteis]({{ site.baseurl }}/referencias/)
