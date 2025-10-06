@@ -28,16 +28,15 @@ Servidores públicos com alguma familiaridade em lógica de programação e uso 
 
 ### 🚀 Módulo 3: Intermediário e Projeto
 - [Aula 7: Git e Estrutura de Projetos]({{ site.baseurl }}/modulo3-projeto/aula7-git-estrutura-projeto/)
-- [Aula 8: Machine Learning e Automação]({{ site.baseurl }}/modulo3-projeto/aula8-ml-automacao/README.md)
-- [Aula 9: Projeto Final - Desenvolvimento Guiado]({{ site.baseurl }}/modulo3-projeto/aula9-projeto-final-guiado/README.md)
-- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3-projeto/aula10-apresentacao-projetos/README.md)
+- [Aula 8: Machine Learning e Automação]({{ site.baseurl }}/modulo3-projeto/aula8-ml-automacao/)
+- [Aula 9: Projeto Final - Desenvolvimento Guiado]({{ site.baseurl }}/modulo3-projeto/aula9-projeto-final-guiado/)
+- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3-projeto/aula10-apresentacao-projetos/)
 
 ## 📊 Projeto Final
 Desenvolvimento de um script ou análise que integre os conceitos aprendidos, preferencialmente versionado em um repositório Git, com entrada única, documentação básica (README.md).
 
 ## 📖 Referências
-- [Links Úteis e Documentação]({{ site.baseurl }}/referencias/links-uteis.md)
-- [Livros e Material Complementar]({{ site.baseurl }}/referencias/livros-material.md)
+- [Links Úteis]({{ site.baseurl }}/referencias/)
 
 ---
 
