@@ -40,10 +40,20 @@
 Produzir output impresso na tela: **hello, world!**
 - Console
 - Terminal
+
 ---
 
-### Extras
-- [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
-- `import this`
+### <img src="{{ site.baseurl }}/images/python.png" width="20">
 
-- [Links Úteis]({{ site.baseurl }}/referencias/)
+1. Propósito geral, aplicações de larga escala 
+2. Sintaxe limpa, uniforme, manutenção (computação) 
+3. Bibliotecas consolidadas para dados, machine learning (comunidade)
+4. Multi-paradigma: funcional, procedural, POO
+
+Variáveis, tipos de dados, operadores, input/output.
+
+### Extras
+
+1. [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
+2. `import this`
+3. [Links Úteis]({{ site.baseurl }}/referencias/)
