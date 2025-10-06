@@ -21,7 +21,8 @@
 ---
 
 3. **Referência básica:**
-- https://penseallen.github.io/PensePython2e/
+
+- [Pense Python 2ed.](https://penseallen.github.io/PensePython2e/)
 
 ---
 
@@ -60,7 +61,7 @@ Produzir output impresso na tela: **hello, world!**
 3. funções
 4. output (print, transforma, persiste)
 
-<img src="{{ site.baseurl }}/images/input_outpu.png">
+<img src="{{ site.baseurl }}/images/input_output.png">
 
 ---
 
