@@ -6,6 +6,7 @@
 1. Objetivo da aula: `hello.py` com sucesso
 - interface: ambiente **VS Code**
 - chamando o intérprete **python**
+- hands-on inicial
 2. Objetivo do curso: 
     - Autonomia, compreensão da lógica
     - Fundamentos
@@ -48,12 +49,42 @@ Produzir output impresso na tela: **hello, world!**
 1. Propósito geral, aplicações de larga escala 
 2. Sintaxe limpa, uniforme, manutenção (computação) 
 3. Bibliotecas consolidadas para dados, machine learning (comunidade)
-4. Multi-paradigma: funcional, procedural, POO
+4. Multi-paradigma: funcional (funnções), procedural (comandos), Orientada a objetos
+5. Orientada a objetos básico: 
+    - **métodos (funções) e dados (atributos)** em conjunto
 
-Variáveis, tipos de dados, operadores, input/output.
+### Vocabulário
+
+1. script, programa
+2. parâmetros
+3. funções
+4. output (print, transforma, persiste)
+
+<img src="{{ site.baseurl }}/images/input_outpu.png">
+
+---
+
+<img src="{{ site.baseurl }}/images/inputoutput.png">
+
+### Hands-on:
+
+1. Variáveis
+2. Tipos de dados
+3. Operadores
+
+### Reserved words
+
+<img src="{{ site.baseurl }}/images/keywords.png">
+
+### Built-in functions
+
+
+<img src="{{ site.baseurl }}/images/builtin.png">
+
 
 ### Extras
 
 1. [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
-2. `import this`
-3. [Links Úteis]({{ site.baseurl }}/referencias/)
+2. `import antigravity`
+3. `import this`
+4. [Links Úteis]({{ site.baseurl }}/referencias/)
