@@ -1,4 +1,4 @@
-# <img src="/images/female.png" width="40"> PEP 8 — Python Style Guide 
+# <img src="{{ site.baseurl }}/images/female.png" width="40"> PEP 8 — Python Style Guide 
 
 > The official Python style guide.  
 > Keep code **clean, consistent, and readable**.
@@ -6,10 +6,10 @@
 
 ---
 
-## <img src="/images/lens.png" width="30"> 1. Code Layout
+## <img src="{{ site.baseurl }}/images/lens.png" width="30"> 1. Code Layout
 
 - **Indentation:** 4 spaces (no tabs).  
-<img src="/images/nerd.png" width="30"> https://youtu.be/oRva7UxGQDw
+<img src="{{ site.baseurl }}/images/nerd.png" width="30"> https://youtu.be/oRva7UxGQDw
 
 - **Line length:** ≤ 79 chars 
 - **Blank lines:**
@@ -21,7 +21,7 @@
 
 ---
 
-## <img src="/images/tick.png" width="30"> 2. Naming Conventions
+## <img src="{{ site.baseurl }}/images/tick.png" width="30"> 2. Naming Conventions
 
 | Type | Convention | Example |
 |------|-------------|----------|
@@ -32,7 +32,7 @@
 
 ---
 
-## <img src="/images/do_it.png" width="20"> 3. Whitespace Rules
+## <img src="{{ site.baseurl }}/images/do_it.png" width="20"> 3. Whitespace Rules
 
 - No extra spaces inside `()`, `[]`, `{}`  
 
@@ -48,7 +48,7 @@ total = a + b
 
 - No space before a comma or colon.
 
-## <img src="/images/conf.png" width="30"> 4. Strings and Docstrings
+## <img src="{{ site.baseurl }}/images/conf.png" width="30"> 4. Strings and Docstrings
 
 - Use `'single'` or `"double"` quotes consistently.
 - Prefer triple quotes for multi-line strings and docstrings.
