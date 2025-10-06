@@ -7,7 +7,7 @@
 
 **Professor**: Bernardo Alves Furtado - bernardo.furtado@ipea.gov.br
 
-## 🎯 Público-Alvo
+## <img src="images/world.png" width="30"> Público-Alvo
 Servidores públicos com alguma familiaridade em lógica de programação e uso de dados com interesse em aprender **Python** para aplicar em projetos de dados de forma eficaz e seguindo boas práticas.
 
 ## 📚 Módulos do Curso
