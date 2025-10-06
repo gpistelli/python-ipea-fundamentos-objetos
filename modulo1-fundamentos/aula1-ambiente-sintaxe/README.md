@@ -32,7 +32,7 @@
     - **Teminal**. Qualquer texto *.py
         - `python script.py`
     
-    - Jupyter--New File *.ipynb (*usa servidor--online code*)
+    - Jupyter--New File `*.ipynb` (*usa servidor--online code*)
         - Escolha kernel (mesmo ambiente)
         - Sair: `CTRL + C`
 
@@ -43,7 +43,7 @@ Produzir output impresso na tela: **hello, world!**
 
 ---
 
-### <img src="{{ site.baseurl }}/images/python.png" width="20">
+### <img src="{{ site.baseurl }}/images/python.png" width="50">
 
 1. Propósito geral, aplicações de larga escala 
 2. Sintaxe limpa, uniforme, manutenção (computação) 
