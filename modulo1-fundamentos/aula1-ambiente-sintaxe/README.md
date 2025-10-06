@@ -1,7 +1,7 @@
 
 ## <img src="{{ site.baseurl }}/images/female.png" width="30"> Bem-vindos colegas ipeanos. Prazer imenso. 
 
-### <img src="{{ site.baseurl }}/images/nerd.png" width="20"> Bernardo--COMIC/DISET
+### <img src="{{ site.baseurl }}/images/nerd.png" width="20"> Bernardo--COMIC/DISET/IPEA
 
 1. Objetivo da aula: `hello.py` com sucesso
 - interface: ambiente **VS Code**
@@ -25,6 +25,17 @@
 - [Pense Python 2ed.](https://penseallen.github.io/PensePython2e/)
 
 ---
+### Ainda a instalação 
+- [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
+
+- 🗺️ O segredo "é o caminho!"
+
+    - *Assim como na economia, na programação grande parte dos problemas de instalação são porque o sistema não sabe **onde** encontrar o Python e as bibliotecas, ou os arquivos ou as variáveis.*
+    - Soluções: 
+        - 1. Adicionar PATH na instalação
+        - 2. Garantir ambiente do **python** é o mesmo das bibliotecas
+        - 3. Ter certeza do caminho do script.py
+        - 4. Localizar a variável no *namespace* correto (onde foi definida)
 
 ### 4. **Hands-on**
 - **VS Code**
@@ -70,8 +81,30 @@ Produzir output impresso na tela: **hello, world!**
 ### Hands-on:
 
 1. Variáveis
-2. Tipos de dados
+
+2. Tipos de dados `type()`
+    ```python
+    int
+    str
+    bool
+    float
+    ```
 3. Operadores
+    ```python
+    +
+    -
+    * 
+    /
+    **
+
+    ==
+    !=
+    >=
+    ```
+
+4. Help
+
+
 
 ### Reserved words
 
@@ -82,6 +115,8 @@ Produzir output impresso na tela: **hello, world!**
 
 <img src="{{ site.baseurl }}/images/builtin.png">
 
+
+[Fonte imagens/Credit:](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
 
 ### Extras
 
