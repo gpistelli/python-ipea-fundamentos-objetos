@@ -1,7 +1,7 @@
 
 ## <img src="/images/female.png" width="30"> Bem-vindos colegas ipeanos. Prazer imenso. 
 
-### <img src="/images/nerd.png" width="20"> Bernardo--COMIC/DISET
+### <img src="{{ site.baseurl }}/images/nerd.png" width="20"> Bernardo--COMIC/DISET
 
 1. Objetivo da aula: `hello.py` com sucesso
 - interface: ambiente **VS Code**
