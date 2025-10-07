@@ -111,6 +111,7 @@ Produzir output impresso na tela: *hello, world!*
     - `input('Entre um número')`
 
 3. Operadores
+
     ```python
     +
     -
