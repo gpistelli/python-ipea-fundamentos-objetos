@@ -4,6 +4,7 @@
 ### <img src="{{ site.baseurl }}/images/nerd.png" width="20"> Bernardo--COMIC/DISET/IPEA
 
 1. Objetivo da aula: `hello.py` com sucesso
+- Instalação prévia? - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 - interface: ambiente **VS Code**
 - chamando o intérprete **python**
 - hands-on inicial
@@ -37,22 +38,41 @@
         - 3. Ter certeza do caminho do script.py
         - 4. Localizar a variável no *namespace* correto (onde foi definida)
 
-### 4. **Hands-on**
+### 4. **Comofaz? I**
 - **VS Code**
     -   **Python interativo (console)**
         - REPL: Read, Evaluate, Print, Loop back for more input
+        - `python` no Terminal. **Enter**
         - Sair. `quit()`
     - **Teminal**. Qualquer texto *.py
         - `python script.py`
     
-    - Jupyter--New File `*.ipynb` (*usa servidor--online code*)
+    - **Jupyter**
+        - New File `hello.ipynb` (*usa servidor--online code*)
         - Escolha kernel (mesmo ambiente)
-        - Sair: `CTRL + C`
+        - Alternativa (*browser*)
+            - `jupyter notebook`
+            - Sair: `CTRL + C`
 
 ### Exercício: hello.py 
-Produzir output impresso na tela: **hello, world!**
+Produzir output impresso na tela: *hello, world!*
+
+- No Terminal do **VS Code**
+    - 1. File/Open Folder (*crie um diretório para as aulas*)
+    - 2. File/New File (*crie um arquivo chamado hello.py*)
+    - 3. Dentro do arquivo digite: `print('Hello, world!!!')`
+        - Sem espaços após **print**
+        - Com aspas simples ou duplas, mas ou simples ou duplas
+        *- Maiúsculas, vírgula e exclamação ao gosto do freguês ou freguesa.*
+    - 3. Terminal/New Terminal (*verifique se está no ambiente criado na instalação*)
+        - **Windows**: `venv-curso-ipea\Scripts\activate`
+    - 4. Digite: `python hello.py`
+
 - Console
-- Terminal
+    - Terminal. Digite `python` **Enter**
+    ```python
+    >>> print("hello world")  # Enter
+    ```
 
 ---
 
@@ -78,17 +98,18 @@ Produzir output impresso na tela: **hello, world!**
 
 <img src="{{ site.baseurl }}/images/inputoutput.png">
 
-### Hands-on:
+### Hands-on II:
 
-1. Variáveis
-
-2. Tipos de dados `type()`
+1. Tipos de dados `type()` + primeiras noções de classes, métodos e atributos
     ```python
     int
     str
     bool
     float
     ```
+2. Variáveis
+    - `input('Entre um número')`
+
 3. Operadores
     ```python
     +
@@ -102,7 +123,7 @@ Produzir output impresso na tela: **hello, world!**
     >=
     ```
 
-4. Help
+4. `help()`
 
 
 
@@ -118,9 +139,24 @@ Produzir output impresso na tela: **hello, world!**
 
 [Fonte imagens/Credit:](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
 
-### Extras
 
-1. [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
-2. `import antigravity`
-3. `import this`
-4. [Links Úteis]({{ site.baseurl }}/referencias/)
+### Código pythonico
+
+- **Cuidado com seu self futuro**
+- ### [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
+
+### Boas práticas--DRY: don't repeat yourself
+www.greenteapress.com/thinkpython/html/thinkpython005.html
+1. **Encapsulation**
+
+    *Wrapping a piece of code up in a function is called encapsulation. One of the benefits of encapsulation is that it attaches a name to the code, which serves as a kind of documentation. Another advantage is that if you re-use the code, it is more concise to call a function twice than to copy and paste the body!*
+            
+2. **Generalization**
+
+    *Adding a **parameter** to a function is called generalization because it makes the function more general*
+
+### For Fun
+
+1. `import antigravity`
+2. `import this`
+3. [Links Úteis]({{ site.baseurl }}/referencias/)

@@ -133,7 +133,7 @@ dados/raw/
 - No seu workspace, dentro do explorer do **VS Code**, crie uma pasta configuracao (note, sem acentos ou cedilha), dê download do arquivo em: https://github.com/BAFurtado/python-ipea-fundamentos-objetos/blob/main/configuracao/verificacao-instalacao.py
 - No Terminal, dentro do ambiente criado `(venv-curso-ipea)`, na raiz do projeto, digite: 
 
-`python configuracao/verificacao-instalacao.py`. 
+   `python configuracao/verificacao-instalacao.py`. 
 
 - Esse comando vai rodar o `script` correspondente na pasta configuracao (confira o caminho do arquivo) e imprimir o diagnóstico da sua instalação!
 
