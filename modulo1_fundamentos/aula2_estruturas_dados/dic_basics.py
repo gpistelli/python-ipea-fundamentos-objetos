@@ -2,11 +2,12 @@ from pathlib import Path
 import sys
 
 # Add parent directory to the front of Python path
+# Necessary to access one directory up
 parent_dir = Path(__file__).parent.parent
 sys.path.insert(0, str(parent_dir))
 
 from collections import defaultdict
-from aula3_controle_fluxo.lists_generator import generate
+from aula3_controle_fluxo.lists_generator import generate  # exemplo de import relativo a outro módulo
 
 
 def concatenar_dicts(*args):

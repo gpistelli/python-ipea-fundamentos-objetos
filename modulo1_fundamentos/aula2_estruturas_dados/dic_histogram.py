@@ -2,7 +2,12 @@
     Adaptado de Think Python. Chapter 11
 
 """
-import lists_generator
+from pathlib import Path
+import sys
+
+# Add parent directory to the front of Python path
+parent_dir = Path(__file__).parent.parent
+from aula3_controle_fluxo import lists_generator
 
 print('Introducing dictionary method .get(key, default values')
 print(dict().get)
