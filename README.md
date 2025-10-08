@@ -17,20 +17,20 @@ Servidores públicos com alguma familiaridade em lógica de programação e uso 
 - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 
 ### <img src="images/tick.png" width="30"> Módulo 1: Fundamentos
-- [Aula 1: Ambiente, Sintaxe e Primeiros Passos]({{ site.baseurl }}/modulo1-fundamentos/aula1-ambiente-sintaxe/)
-- [Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1-fundamentos/aula2-estruturas-dados/)
-- [Aula 3: Controle de Fluxo e Funções]({{ site.baseurl }}/modulo1-fundamentos/aula3-controle-fluxo/)
+- [Aula 1: Ambiente, Sintaxe e Primeiros Passos]({{ site.baseurl }}/modulo1_fundamentos/aula1_ambiente_sintaxe/)
+- [Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1_fundamentos/aula2_estruturas_dados/)
+- [Aula 3: Controle de Fluxo e Funções]({{ site.baseurl }}/modulo1_fundamentos/aula3_controle_fluxo/)
 
 ### <img src="images/conf.png" width="30"> Módulo 2: POO e Dados
-- [Aula 4: Programação Orientada a Objetos]({{ site.baseurl }}/modulo2-objetos/aula4-poo/README.md)
-- [Aula 5: Introdução ao Pandas e DataFrames]({{ site.baseurl }}/modulo2-objetos/aula5-pandas-lib/README.md)
-- [Aula 6: Manipulação de Dados com Pandas]({{ site.baseurl }}/modulo2-objetos/aula6-pandas-dados/README.md)
+- [Aula 4: Programação Orientada a Objetos]({{ site.baseurl }}/modulo2_objetos/aula4_poo/README.md)
+- [Aula 5: Introdução ao Pandas e DataFrames]({{ site.baseurl }}/modulo2_objetos/aula5_pandas_lib/README.md)
+- [Aula 6: Manipulação de Dados com Pandas]({{ site.baseurl }}/modulo2_objetos/aula6_pandas_dados/README.md)
 
 ### <img src="images/do_it.png" width="30"> Módulo 3: Intermediário e Projeto
-- [Aula 7: Git e Estrutura de Projetos]({{ site.baseurl }}/modulo3-projeto/aula7-git-estrutura-projeto/)
-- [Aula 8: Machine Learning e Automação]({{ site.baseurl }}/modulo3-projeto/aula8-ml-automacao/)
-- [Aula 9: Projeto Final - Desenvolvimento Guiado]({{ site.baseurl }}/modulo3-projeto/aula9-projeto-final/)
-- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3-projeto/aula10-projetos/)
+- [Aula 7: Git e Estrutura de Projetos]({{ site.baseurl }}/modulo3_projeto/aula7_git_estrutura_projeto/)
+- [Aula 8: Machine Learning e Automação]({{ site.baseurl }}/modulo3_projeto/aula8_ml_automacao/)
+- [Aula 9: Projeto Final _ Desenvolvimento Guiado]({{ site.baseurl }}/modulo3_projeto/aula9_projeto_final/)
+- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3_projeto/aula10_projetos/)
 
 ## <img src="images/do_it.png" width="30"> Projeto Final
 Desenvolvimento de um script ou análise que integre os conceitos aprendidos, preferencialmente versionado em um repositório Git, com entrada única, documentação básica (README.md).

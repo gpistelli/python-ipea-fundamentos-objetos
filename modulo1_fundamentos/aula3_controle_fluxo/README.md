@@ -1,3 +1,21 @@
+
+A. Conditions
+
+
+B. Loops
+
+
+C. Funções
+
+
+    if __name__ == '__main__':  # explained
+
+D. Namespaces
+
+    import  # explained
+
+
+
 ## Exercícios
 
 ### A. Probability with Python. Rascunho de uma simulação numérica...
