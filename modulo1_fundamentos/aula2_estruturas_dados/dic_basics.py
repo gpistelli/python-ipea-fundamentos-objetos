@@ -1,5 +1,12 @@
+from pathlib import Path
+import sys
+
+# Add parent directory to the front of Python path
+parent_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(parent_dir))
+
 from collections import defaultdict
-from lists_generator import generate
+from aula3_controle_fluxo.lists_generator import generate
 
 
 def concatenar_dicts(*args):
