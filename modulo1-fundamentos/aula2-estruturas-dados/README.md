@@ -121,5 +121,46 @@ motivator.split(' ')
 subject, verb, adjective = motivator.split(' ')
 sintaxe_tuple = motivator.split(' ')
 
-CNPJ_BB = 
+CNPJ_BB = 191
+# be carefult
+CNPJ_BB.zfill(14)
+# what is the error?
+# ...
+
+str(CNPJ_BB).zfill(14)
+
+# introducing string formatting on the fly and join :)
+print(f'join is {'super'.upper()} cool string method')
+# systematics. print + f + single or double quotes + variable between brackets: 
+print(f"this f-string works and is {adjective}")  
+# as long as adjective exists in the namespace
+
+# very common example tupla para assignment
+hora = 60  # padrão
+minutos = 200  # para transformar em horas e minutos
+
+horas, minutos = minutos // hora, minutos % hora
+```
+
+## Dicionários key:value--muitíssimo útil--fast-indexado
+```python
+# Cria-se com CHAVES
+# Par chave, valor com dois pontos
+# Assign como listas, com colchetes--chave = valor
+
+armario1 = {}
+key = 'gavetao'
+value = 'lençóis especiais'
+
+# É necessário ter criado o dicionário antes. 
+# Mesma coisa com append para lista.
+armario1[key] = value
+armario1
+armario2 = {key: value}
+armario2
+armario3 = {'gavetao': 'lençóis especiais'}
+armario3
+
+armario1 == armario2 == armario3
+armario1 is armario2
 ```
