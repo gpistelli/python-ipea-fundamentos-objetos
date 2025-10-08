@@ -21,7 +21,7 @@
         - módulos e 
         - persistência
 
-### Disclaimer
+## Disclaimer
 
 
 ---
@@ -31,7 +31,7 @@
 - [Pense Python 2ed.](https://penseallen.github.io/PensePython2e/)
 
 ---
-### Ainda a instalação 
+## Ainda a instalação 
 - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 
 - 🗺️ O segredo "é o caminho!"
@@ -59,7 +59,7 @@
             - `jupyter notebook`
             - Sair: `CTRL + C`
 
-### Exercício: hello.py 
+## Exercício: hello.py 
 Produzir output impresso na tela: *hello, world!*
 
 - No Terminal do **VS Code**
@@ -103,6 +103,7 @@ Produzir output impresso na tela: *hello, world!*
 
 <img src="{{ site.baseurl }}/images/inputoutput.png">
 
+## Variables
 ### Hands-on II:
 
 1. Tipos de dados `type()` + primeiras noções de classes, métodos e atributos
@@ -131,13 +132,86 @@ Produzir output impresso na tela: *hello, world!*
 
 4. `help()`
 
+## Strings
 
+1. Strings, como listas (que veremos) são uma sequência
+2. Com isso, podem ser acessadas por meio de indexes
+    - Lembre-se: em **python** indexing começa em 0.
+    Logo: 
+    ```python
+    frase = 'python is cool'
+    frase[1]  # ?
+    ```
+### Acessando itens (em strings e listas)
 
-### Reserved words
+- 1. Use index, mas começe pelo **0**   `# como maioria das "linguagens" de programação`
+- 2. *MUTABLE*: Quando você "assign" um valor novo, ele substitui o anterior
+
+```python
+>>> supermercado[2] = 'rúcula'
+>>> supermercado
+
+# What happens for supermercado[-1] ?
+```
+
+1. **Sobre iterables e indexes**
+    - dois pontos (colon) são importantes dentro de colchetes para indexes
+        - [início:fim(não incluído)]
+        - **[4:7]** do então 4 até o antes do 7
+            - note que o 7o. termo está incluído porque começou em 0
+        - início omitido é 0
+        - fim omitido é o último -1
+        - logo **[:]** é a lista/ toda
+ 
+ `# simples é uma lista para ficar mais visual a posição (listas -> aula2)`
+ `simples = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] `
+
+ 
+ Teste no console
+ ```python
+ simples[0]
+ simples[-1]
+ simples[4]
+ simples[:4]
+ simples[:]
+ simples[-2:]
+ simples[:-2]
+ simples[-2:-2]
+ # be careful
+ simples[10]
+ # note que só acessamos os itens. não modificamos as listas
+ # métodos, todavia, alteram a lista inplace
+ ```
+
+### Strings--methods
+
+```python
+motivator = 'python is cool'
+type(motivator)
+motivator.capitalize()
+help(str)
+# endswith, isnum, isalpha, islower, isupper, join, 
+# lower, split,s trip, title, zfill
+motivator[6]
+motivator.split(' ')
+
+subject, verb, adjective = motivator.split(' ')
+sintaxe_tuple = motivator.split(' ')
+
+CNPJ_BB = 191
+# be carefult
+CNPJ_BB.zfill(14)
+# what is the error?
+# ...
+
+str(CNPJ_BB).zfill(14)
+```
+
+## Reserved words
 
 <img src="{{ site.baseurl }}/images/keywords.png">
 
-### Built-in functions
+## Built-in functions
 
 
 <img src="{{ site.baseurl }}/images/builtin.png">
@@ -145,8 +219,7 @@ Produzir output impresso na tela: *hello, world!*
 
 [Fonte imagens/Credit:](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
 
-
-### Código pythonico
+## Código pythonico
 
 - **Cuidado com seu self futuro**
 - ### [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
