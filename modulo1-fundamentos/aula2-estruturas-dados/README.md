@@ -142,13 +142,14 @@ minutos = 200  # para transformar em horas e minutos
 horas, minutos = minutos // hora, minutos % hora
 ```
 
-## Dicionários key:value--muitíssimo útil--fast-indexado
+## Dicionários key: value--muitíssimo útil--fast-indexado--mapping
 ```python
 # Cria-se com CHAVES
 # Par chave, valor com dois pontos
 # Assign como listas, com colchetes--chave = valor
 
 armario1 = {}
+armario1 = dict()  # também funciona. Acho mais explícito
 key = 'gavetao'
 value = 'lençóis especiais'
 
@@ -164,3 +165,48 @@ armario3
 armario1 == armario2 == armario3
 armario1 is armario2
 ```
+
+### Métodos
+
+1. `armario1.keys()`  # chaves
+2. `armario1.values()`  # valores
+3. `armario1.items()`  # lista de tuples de chaves e valores 
+
+    ```python
+    armario1['gaveta_alta`] = 'pijamas
+    [(key1, value1), (key2, value2)]
+    armario1['gaveta_alta`] = 'pijamas
+    ```
+
+## Fun thing: salto ao futuro (das aulas)
+### 🤔 good idea?
+
+```python
+
+
+def histogram(string): 
+    """ Exemplo de dicionário como uma função para contagem: histogram. 
+    Inclui parâmetro de input, retorna dicionário criado, faz loop e testa condicional. 
+    Muita calma nessa hora!
+    """
+    # Cria o dicionário
+    meu_dict = dict()
+    # Começa o loop pelas letras da palavra
+    for letter in string:
+        # Testa se a letra já está no dicionário
+        if letter not in meu_dict:
+            # Inicia contagem
+            meu_dict[letter] = 1
+        # Se ela já estava, aumenta a contagem em 1
+        else:
+            meu_dict[letter] += 1
+    # Depois do loop retorna o dicionário pronto
+    return meu_dict
+
+# Para chamar a função
+palavra_teste = 'abracadabra'
+resposta = histogram(palavra_teste)
+
+```
+
+
