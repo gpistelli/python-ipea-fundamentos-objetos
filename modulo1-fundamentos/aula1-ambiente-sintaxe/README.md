@@ -3,6 +3,8 @@
 
 ### <img src="{{ site.baseurl }}/images/nerd.png" width="20"> Bernardo--COMIC/DISET/IPEA
 
+## Aula 1. Aula 0
+
 1. Objetivo da aula: `hello.py` com sucesso
 - Instalação prévia? - [Instalação do Python, VS Code e ferramentas essenciais]({{ site.baseurl }}/configuracao/)
 - interface: ambiente **VS Code**
@@ -18,6 +20,9 @@
         - classes, 
         - módulos e 
         - persistência
+
+### Disclaimer
+
 
 ---
 
@@ -160,4 +165,16 @@ www.greenteapress.com/thinkpython/html/thinkpython005.html
 
 1. `import antigravity`
 2. `import this`
-3. [Links Úteis]({{ site.baseurl }}/referencias/)
+3. [**Gamification I**](https://py.checkio.org)
+4. [**Gamification II**](http://www.pythonchallenge.com/pc/def/0.html)
+5. [Automatizando uma fazenda com **Python**](https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/)
+
+### [Links Úteis]({{ site.baseurl }}/referencias/)
+
+### Exercícios
+
+1. Quanto é '5' * 5?
+2. `print(5 + 5)` é igual a `print('5' + '5')`? Why?
+3. Quanto é :  `(25 ∗ (2 + 23)/54)2`
+4. Quantas horas inteiras tem em 200 minutos? Use `//` floor division
+5. Quantos minutos sobram? Use `%` remainder
