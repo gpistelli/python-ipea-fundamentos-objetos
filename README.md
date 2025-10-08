@@ -22,15 +22,15 @@ Servidores públicos com alguma familiaridade em lógica de programação e uso 
 - [Aula 3: Controle de Fluxo e Funções]({{ site.baseurl }}/modulo1-fundamentos/aula3-controle-fluxo/)
 
 ### <img src="images/conf.png" width="30"> Módulo 2: POO e Dados
-- [Aula 4: Programação Orientada a Objetos]({{ site.baseurl }}/modulo2-objetos/aula4-programacao-orientada-objetos/README.md)
-- [Aula 5: Introdução ao Pandas e DataFrames]({{ site.baseurl }}/modulo2-objetos/aula5-pandas-dataframes/README.md)
-- [Aula 6: Manipulação de Dados com Pandas]({{ site.baseurl }}/modulo2-objetos/aula6-manipulacao-dados/README.md)
+- [Aula 4: Programação Orientada a Objetos]({{ site.baseurl }}/modulo2-objetos/aula4-poo/README.md)
+- [Aula 5: Introdução ao Pandas e DataFrames]({{ site.baseurl }}/modulo2-objetos/aula5-pandas-lib/README.md)
+- [Aula 6: Manipulação de Dados com Pandas]({{ site.baseurl }}/modulo2-objetos/aula6-pandas-dados/README.md)
 
 ### <img src="images/do_it.png" width="30"> Módulo 3: Intermediário e Projeto
 - [Aula 7: Git e Estrutura de Projetos]({{ site.baseurl }}/modulo3-projeto/aula7-git-estrutura-projeto/)
 - [Aula 8: Machine Learning e Automação]({{ site.baseurl }}/modulo3-projeto/aula8-ml-automacao/)
-- [Aula 9: Projeto Final - Desenvolvimento Guiado]({{ site.baseurl }}/modulo3-projeto/aula9-projeto-final-guiado/)
-- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3-projeto/aula10-apresentacao-projetos/)
+- [Aula 9: Projeto Final - Desenvolvimento Guiado]({{ site.baseurl }}/modulo3-projeto/aula9-projeto-final/)
+- [Aula 10: Apresentação dos Projetos]({{ site.baseurl }}/modulo3-projeto/aula10-projetos/)
 
 ## <img src="images/do_it.png" width="30"> Projeto Final
 Desenvolvimento de um script ou análise que integre os conceitos aprendidos, preferencialmente versionado em um repositório Git, com entrada única, documentação básica (README.md).

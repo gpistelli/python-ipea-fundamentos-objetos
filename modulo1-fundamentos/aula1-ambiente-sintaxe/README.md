@@ -222,6 +222,7 @@ str(CNPJ_BB).zfill(14)
 ## Código pythonico
 
 - **Cuidado com seu self futuro**
+<img src="{{ site.baseurl }}/images/meme.png">
 - ### [PEP 8 -- Jeito pythonista de ser](pep8-python-style-guide.md)
 
 ### Boas práticas--DRY: don't repeat yourself
