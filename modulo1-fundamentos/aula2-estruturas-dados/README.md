@@ -209,4 +209,30 @@ resposta = histogram(palavra_teste)
 
 ```
 
+## Sets--Conjuntos--elementos únicos!
+
+```python
+conjunto = set()
+outro_conjunto = {87, 91, 88}  # Chaves, mas não para chave-valor. 
+""" unordered, unchangeable, no duplicate values"""
+# Method
+conjunto.add(88)  # Não é append, como lista, é ADD
+print(len(conjunto))
+conjunto.add(88)
+print(len(conjunto))
+conjunto.add(81)
+```
+
+### Methods
+ - `in` `88 in conjunto`
+ - `conjunto.update(outro_conjunto)`  # também pode update com uma lista
+ - `uniao = conjunto.union(outro_conjunto)`  # retorna um set
+ - `conjunto.intersection(outro_conjunto)`  # mantém só os elementos, presentes em ambos, retorna um set
+ - `diferenca = conjunto.difference(outro_conjunto)`  # retorna a diferença
+
+### Vida prática--eliminar duplicates
+
+`lista_elementos_unicos = list(set(lista_com_duplicados))`
+
+
 
