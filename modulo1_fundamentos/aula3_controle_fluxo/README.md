@@ -1,16 +1,131 @@
 
-A. Conditions
+## A. Conditions
+1. Em **python** use: `True` and `False`. Com a primeira maiúscula. 
+2. São equivalentes a 1 e 0. 
+3. É um tipo: `type(True)` `bool`
+4. Também existem os operadores lógicos `and` `or` and  `not`
+```python
+>>> 2 + 2 == 4  # True
+>>> 2 + 3 == 4  # False
+>>> not True == False  # True
+>>> (2 + 2 == 4) and (2 + 3 == 4)  # False
+```
+5. Conditions começam com `if` terminam em dois pontos `:` e necessariamente identação de 4 **espaços** na linha abaixo. Em seguida, podem ter `else` or `elif`. Veja os exemplos.
+```python
+valor = 10
+if valor > 10:
+    print('valor acima do esperado.')
+else:
+    print('valor dentro do esperado.')
 
+container = [9, 65, 7, 0, 4]
+if valor in container:
+    print('valor encontrado')
+elif valor - 1 in container:
+    print('valor imediatamente menor encontrado')
+else:
+    print('não achei nada.')
+```
 
-B. Loops
+6. Uso de `while` # be careful. Não se esqueça de alterar a condição para que o loop se encerre.
+```python
+valor = 10
+while valor >= 0:
+    print(valor)
+    valor -= 1
+```
+7. `break` encerra o loop de `while`. Sai! Quando a condição para o `break` é chamada. 
+```python
+valor = 10
+while True:
+    if valor > 100:
+        break
+    print(valor)
+    valor += 1
+```
 
+## B. Loops
 
-C. Funções
+1. Loops começam com  `for` + item `in` iterable. Termina em dois pontos e necessariamente tem identação de 4 **espaços** na linha abaixo.
+```python
+# Mineiro vai à feira
+sacola = ['queijo', 'goiabada', 'pao de queijo', 'torresmo', 'linguiça', 'café']
+for item in sacola:
+    print(item)
 
+# Calculando ímpares
+for num in range(10):
+    if num % 2 == 0:
+        print(num)
+    else:
+        pass
+
+# Vogais maiúsculas
+for letter in 'python is cool':
+    if letter in ['a', 'e', 'i', 'o', 'u']:
+        # end='' evita escrever na linha seguinte.
+        print(letter.upper(), end='')
+    else:
+        print(letter, end='')
+```
+
+## C. Funções
+*""" Funções são pedacinhos de códigos que facilitam a chamada repetidamente, organizam o código e compõem uma tarefa específica. """*
+
+1. Você já viu algumas funções que existem no `namespace` geral do python
+```python
+# Exemplo de três funções encadeadas: print, sum e range
+print(sum([range(10)]))
+# Também acessamos type e help
+# Essas funcionam porque já estão presentes no ambiente geral
+# Tamanho (len) também é uma função muito útil
+print(len('python is cool'))
+```
+2. Funções começam sempre com a palavrinha `def`, terminam em dois pontos e necessariamente exigem 4 espaços na linha abaixo. Usualmente levam parâmetros e podem modificar o objeto, imprimir ou retornar valores.
+```python
+def soma(a, b):
+    return a + b
+```
+3. A função em si, como acima, somente é armazenada no namespace. Para executá-la, é necessário chamá-la em algum outro momento do seu programa.
+```python
+a = 7
+b =  6
+print(soma(6, 7))
+```
+4. Funções, como tudo o resto, são objetos. Portanto, podem ser passadas como parãmetros.
+```python
+def lemma():
+    print('python is cool')
+
+type(lemma)
+
+def repeat(func):
+    func()
+    func()
+
+repeat(lemma)
+```
+
+5. Funções que não retornam nada, retornam `None`
+6. Parâmetros não-nomeados devem respeitar a ordem. No exemplo, o primeiro parâmetro é `a`, o segundo é `b`.
+7. É possível nomear parâmetros e entrá-los em outra ordem.
+8. Se não nomear, assume base é o primeiro, altura o segundo.
+
+```python
+def area_triangulo(base=None, altura=None):
+    return base * altura / 2
+
+print(area_triangulo(altura=10, base=8))
+```
+
+8. Variáveis dentro de funções só estão acessíveis dentro da função.
+9. **NEVER EVER** nomeie variáveis com mesmo nome dentro e fora da função. Ainda que elas sejam diferentes.
+
+## D. Namespaces
 
     if __name__ == '__main__':  # explained
 
-D. Namespaces
+
 
     import  # explained
 

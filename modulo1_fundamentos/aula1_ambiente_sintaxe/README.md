@@ -20,6 +20,7 @@
         - classes, 
         - módulos e 
         - persistência
+3. Muitos exercícios e exemplos depois da Aula3, para solidificar fundamentos.
 
 ## Disclaimer
 
