@@ -3,7 +3,7 @@
 
 
 class Turma:
-    def __init__(self, name='PythonIpea2022'):
+    def __init__(self, name='PythonIpea2025'):
         self.turma = name
         self.students = list()
 

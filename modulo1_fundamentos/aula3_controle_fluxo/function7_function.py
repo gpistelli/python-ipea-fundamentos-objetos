@@ -17,3 +17,5 @@ def do_four(f):
 
 if __name__ == '__main__':
     do_twice(function1.print_sentences)
+    print('\nChamando do four\n')
+    do_four(function1.print_sentences)

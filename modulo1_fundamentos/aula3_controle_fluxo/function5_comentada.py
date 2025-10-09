@@ -1,6 +1,6 @@
 """ Script que calcula a área do círculo
     Exemplo de função comentada
-    Adapted from Python for ABM 2019 into 2022
+
     """
 
 """ Eu uso tres aspas para

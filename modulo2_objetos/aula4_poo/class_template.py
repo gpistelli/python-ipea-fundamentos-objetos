@@ -1,5 +1,5 @@
 """ Class template
-    Ipea's Python 2022
+    Ipea's Python 2025
     """
 
 import random
