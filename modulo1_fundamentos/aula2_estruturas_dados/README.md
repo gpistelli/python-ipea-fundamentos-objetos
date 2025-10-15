@@ -16,12 +16,12 @@ empty_list2 = []
 
 ### Métodos
 
-- 1. `append(item)`  # appends to the end of the list
-- 2. `pop()`  # returns last item
-- 3. `sort()`  # accepts parameter `reverse` 
-- 4. outras?
+1. `append(item)`  # appends to the end of the list
+2. `pop()`  # returns last item
+3. `sort()`  # accepts parameter `reverse` 
+4. outras?
 
-2. Apply **python** general functions to lists
+5. Apply **python** general functions to lists
 
 ```python
 len(simples)

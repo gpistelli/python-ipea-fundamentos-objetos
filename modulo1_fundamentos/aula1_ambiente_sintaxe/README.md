@@ -39,10 +39,10 @@
 
     - *Assim como na economia, na programação grande parte dos problemas de instalação são porque o sistema não sabe **onde** encontrar o Python e as bibliotecas, ou os arquivos ou as variáveis.*
     - Soluções: 
-        - 1. Adicionar PATH na instalação
-        - 2. Garantir ambiente do **python** é o mesmo das bibliotecas
-        - 3. Ter certeza do caminho do script.py
-        - 4. Localizar a variável no *namespace* correto (onde foi definida)
+        1. Adicionar PATH na instalação
+        2. Garantir ambiente do **python** é o mesmo das bibliotecas
+        3. Ter certeza do caminho do script.py
+        4. Localizar a variável no *namespace* correto (onde foi definida)
 
 ### 4. **Comofaz? I**
 - **VS Code**
@@ -59,20 +59,23 @@
         - Alternativa (*browser*)
             - `jupyter notebook`
             - Sair: `CTRL + C`
+    - **Alternativa: "Hail Mary"**
+        - Vá ao [Google Colab](https://colab.google)
+        - New notebook
 
 ## Exercício: hello.py 
 Produzir output impresso na tela: *hello, world!*
 
 - No Terminal do **VS Code**
-    - 1. File/Open Folder (*crie um diretório para as aulas*)
-    - 2. File/New File (*crie um arquivo chamado hello.py*)
-    - 3. Dentro do arquivo digite: `print('Hello, world!!!')`
-        - Sem espaços após **print**
-        - Com aspas simples ou duplas, mas ou simples ou duplas
-        *- Maiúsculas, vírgula e exclamação ao gosto do freguês ou freguesa.*
-    - 3. Terminal/New Terminal (*verifique se está no ambiente criado na instalação*)
-        - **Windows**: `venv-curso-ipea\Scripts\activate`
-    - 4. Digite: `python hello.py`
+    1. File/Open Folder (*crie um diretório para as aulas*)
+    2. File/New File (*crie um arquivo chamado hello.py*)
+    3. Dentro do arquivo digite: `print('Hello, world!!!')`
+      - Sem espaços após **print**
+      - Com aspas simples ou duplas, mas ou simples ou duplas
+      *- Maiúsculas, vírgula e exclamação ao gosto do freguês ou freguesa.*
+    4. Terminal/New Terminal (*verifique se está no ambiente criado na instalação*)
+      - **Windows**: `venv-curso-ipea\Scripts\activate`
+    5. Digite: `python hello.py`
 
 - Console
     - Terminal. Digite `python` **Enter**
@@ -145,10 +148,11 @@ Produzir output impresso na tela: *hello, world!*
     ```
 ### Acessando itens (em strings e listas)
 
-- 1. Use index, mas começe pelo **0**   `# como maioria das "linguagens" de programação`
-- 2. *MUTABLE*: Quando você "assign" um valor novo, ele substitui o anterior
+1. Use index, mas começe pelo **0**   `# como maioria das "linguagens" de programação`
+2. *MUTABLE*: Quando você "assign" um valor novo, ele substitui o anterior
 
 ```python
+>>> supermercado = ['banana', 'ovos', 'alface', 'leite']
 >>> supermercado[2] = 'rúcula'
 >>> supermercado
 
@@ -162,11 +166,12 @@ Produzir output impresso na tela: *hello, world!*
             - note que o 7o. termo está incluído porque começou em 0
         - início omitido é 0
         - fim omitido é o último -1
-        - logo **[:]** é a lista/ toda
+        - logo **[:]** é a lista toda
  
- `# simples é uma lista para ficar mais visual a posição (listas -> aula2)`
- `simples = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] `
-
+ ```python
+ # simples é uma lista para ficar mais visual a posição (listas -> aula2)
+ simples = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
  
  Teste no console
  ```python
@@ -218,7 +223,7 @@ str(CNPJ_BB).zfill(14)
 <img src="{{ site.baseurl }}/images/builtin.png">
 
 
-[Fonte imagens/Credit:](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
+[Fonte imagens/Credit: 30 Days of Python](https://github.com/Asabeneh/30-Days-Of-Python/tree/master)
 
 ## Código pythonico
 
