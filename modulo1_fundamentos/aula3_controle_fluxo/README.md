@@ -1,4 +1,9 @@
 
+## Endereços  
+Contributor: Gabriel Pistelli
+- **Curso**: [https://bafurtado.github.io/python-ipea-fundamentos-objetos](https://bafurtado.github.io/python-ipea-fundamentos-objetos/)
+- **Repositório git com os arquivos**: [https://github.com/baFurtado/python-ipea-fundamentos-objetos/](https://github.com/baFurtado/python-ipea-fundamentos-objetos/)
+
 ## A. Conditions
 1. Em **python** use: `True` and `False`. Com a primeira maiúscula. 
 2. São equivalentes a 1 e 0. 

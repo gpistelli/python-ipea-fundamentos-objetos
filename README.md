@@ -7,6 +7,12 @@
 
 **Professor**: Bernardo Alves Furtado - bernardo.furtado@ipea.gov.br
 
+## Endereços  
+Contributor: Gabriel Pistelli
+- **Curso**: [https://bafurtado.github.io/python-ipea-fundamentos-objetos](https://bafurtado.github.io/python-ipea-fundamentos-objetos/)
+- **Repositório git com os arquivos**: [https://github.com/baFurtado/python-ipea-fundamentos-objetos/](https://github.com/baFurtado/python-ipea-fundamentos-objetos/)
+
+
 ## <img src="images/world.png" width="30"> Público-Alvo
 Servidores públicos com alguma familiaridade em lógica de programação e uso de dados com interesse em aprender **Python** para aplicar em projetos de dados de forma eficaz e seguindo boas práticas.
 
