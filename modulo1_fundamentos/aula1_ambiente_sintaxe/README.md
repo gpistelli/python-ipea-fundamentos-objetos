@@ -139,4 +139,5 @@ Produzir output impresso na tela: *hello, world!*
     >=
     ```
 ### Material de continuidade da Aula 1 transferido para Aula 2...
-- [Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1_fundamentos/aula2_estruturas_dados/)
+[Aula 2: Estruturas de Dados Pythonicas]({{ site.baseurl }}/modulo1_fundamentos/aula2_estruturas_dados/)
+
