@@ -1,5 +1,9 @@
 <style>
-
+#cabeca {
+ position: top;
+ width: 100%;
+ height: 380px;
+}
 </style>
  
 <header>
