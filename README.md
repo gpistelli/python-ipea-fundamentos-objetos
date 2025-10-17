@@ -6,9 +6,14 @@
 **Dias**: 16, 22, 23 e 30/10; 06,12,13,19, e 27/11; e 04/12/2025
 
 **Professor**: Bernardo Alves Furtado - bernardo.furtado@ipea.gov.br
+**Super colaboradores**: 
+    - Pedro Cavalcanti
+    - **Douglas De Oliveira Matos Braga**
+    - **Gabriel Garcia de Almeida**
+    - Contributor: Gabriel Pistelli
 
 ## Endereços  
-Contributor: Gabriel Pistelli
+
 - **Curso**: [https://bafurtado.github.io/python-ipea-fundamentos-objetos](https://bafurtado.github.io/python-ipea-fundamentos-objetos/)
 - **Repositório git com os arquivos**: [https://github.com/baFurtado/python-ipea-fundamentos-objetos/](https://github.com/baFurtado/python-ipea-fundamentos-objetos/)
 
